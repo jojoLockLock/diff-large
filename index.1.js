@@ -54,7 +54,7 @@ class NewFile extends Component {
     }
 
     componentWillReceiveProps(nextProps) {
-        const { currentDepot, params } = nextProps;
+ 
         const { splat } = params;
         if (
             (
