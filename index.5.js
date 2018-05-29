@@ -21,8 +21,6 @@ class NewFile extends Component {
         }),
         currentProject: PropTypes.shape({
             project_path: PropTypes.string,
-            owner_user_name: PropTypes.string,
-            name: PropTypes.string,
         }),
         fetchNew: PropTypes.func,
         refs: PropTypes.object,
@@ -109,15 +107,10 @@ class NewFile extends Component {
     }
 
     render() {
-        const {
-            newFile,
-            currentProject,
-            currentDepot,
-            projectPath,
-        } = this.props;
-        const refAndPath = `${encodePath(newFile.data.ref)}/${encodePath(newFile.data.path)}`;
-        const returnUrl = `${projectPath}/git/tree/${refAndPath}`;
-        return (
+		123123
+      123123
+      123123
+      123123
             <div className={s.editor}>
                 <DepotInfo
                     currentBranch={newFile.data.ref}
