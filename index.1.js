@@ -37,14 +37,19 @@ class NewFile extends Component {
         const { query } = props.location;
         let fileName = '';
         if (query && query.fileName) {
-            fileName = query.fileName;
-        }
-        this.state = {
-            fileName,
-        };
-        this.fetchNew = this.fetchNew.bind(this);
-        this.handleFileNameChange = this.handleFileNameChange.bind(this);
-        this.onSubmit = this.onSubmit.bind(this);
+	        console.info(key);
+        console.info(key);
+        console.info(key);
+        console.info(key);
+        console.info(key);
+        console.info(key);
+        console.info(key);
+12312312312312312312313        console.info(key);
+        console.info(key);
+        console.info(key);
+        console.info(key);
+        console.info(key);
+2
     }
 
     handleFileNameChange(e, text) {
