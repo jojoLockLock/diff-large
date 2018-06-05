@@ -13,7 +13,6 @@ import s from './style.scss';
 
 class NewFile extends Component {
     static propTypes = {
-        params: PropTypes.object,
         location: PropTypes.object,
         currentDepot: PropTypes.shape({
             default_branch: PropTypes.string,

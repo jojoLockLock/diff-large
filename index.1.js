@@ -59,24 +59,14 @@ class NewFile extends Component {
     }
 
     componentWillReceiveProps(nextProps) {
-        const { currentDepot, params } = nextProps;
+ 
         const { splat } = params;
         if (
             (
                 currentDepot.default_branch !== this.props.currentDepot.default_branch
-            ) || (
-                splat !== this.props.params.splat
-            )
-        ) {
-            this.fetchNew(splat || currentDepot.default_branch);
-        }
-    }
 
-    componentDidMount() {
-        const { currentDepot, params } = this.props;
-        const { splat } = params;
-        if (currentDepot.default_branch) {
-            this.fetchNew(splat || currentDepot.default_branch);
+              123123123
+              tDepot.default_branch);
         }
     }
 
